@@ -16,3 +16,22 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home', function () {
+    return view('home');
+});
+
+// Post/publish the article
+Route::post('/home',function(){
+    ...
+});
+
+// Update this specific article
+Route::put('/home/{article:id}',function($id){
+    ...
+})
+
+// Delete a specific article
+Route::delete('/home/{article:id}',function($id){
+    ...
+});

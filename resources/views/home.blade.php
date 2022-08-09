@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1>
-            HOLA !
+            Ceci est la page home test.
         </h1>
     </body>
 </html>
